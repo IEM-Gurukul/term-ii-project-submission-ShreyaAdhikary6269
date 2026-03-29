@@ -63,7 +63,29 @@ Bank Customers: To perform daily banking operations like deposit, withdrawal, an
 ## Proposed Architecture Description
 
 ---
+The Mini Banking System follows a layered architecture to ensure clear separation of concerns, better maintainability, and scalability.
 
+1. Presentation Layer
+Built using Java Swing for the graphical user interface.
+Handles user interactions such as login, signup, and transactions.
+Displays outputs like account balance, transaction status, and error messages.
+2. Business Logic Layer
+Implemented using Core Java classes.
+Contains the core functionality of the system.
+Responsible for:
+User authentication
+Processing transactions (deposit, withdraw, fast cash)
+Applying validation rules (e.g., insufficient balance check)
+Managing application workflow
+3. Data Layer
+Uses H2 Database for data storage.
+Stores user details, account information, and transaction history.
+Performs CRUD operations (Create, Read, Update, Delete).
+Ensures data consistency and integrity.
+Architecture Benefits
+Modular design for easy debugging and updates
+Clear separation between UI, logic, and data
+Scalable for adding new features in the future
 ## How to Run
 
 ---
