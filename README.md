@@ -90,5 +90,38 @@ Scalable for adding new features in the future
 
 ---
 
+Follow these steps to run the Mini Banking System project on your local machine:
+
+Prerequisites
+Java Development Kit (JDK 8 or above)
+Any Java IDE (IntelliJ IDEA / Eclipse / VS Code)
+H2 Database (if not embedded)
+Steps to Execute
+
+Clone the Repository
+
+git clone <your-repository-link>
+Open the Project
+Open the project folder in your preferred IDE.
+Add Required Libraries
+Ensure all .jar files (including H2 database driver) are added to the project build path.
+Set Up Database
+Configure H2 database connection (URL, username, password)
+Run SQL scripts (if provided) to create required tables
+Compile the Project
+Build/compile all Java files
+Run the Application
+Locate the main class (e.g., Main.java or Login.java)
+Run the file to start the application
+Default Usage Flow
+Signup to create a new account
+Login using credentials
+Perform transactions (deposit/withdraw/fast cash)
+Check account balance
+Troubleshooting
+Ensure JDK version compatibility
+Check database connection settings
+Verify all dependencies are correctly added
+
 ## Git Discipline Notes
 Minimum 10 meaningful commits required.
